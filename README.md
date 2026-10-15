@@ -18,7 +18,7 @@ public class Manuel {
     String studies   = "Multiplatform Application Development (DAM) @ Salesianos San Pedro";
     String location  = "Seville, Spain";
     String[] languages = {"Spanish (native)", "English (C1 - Cambridge)"};
-    String[] focus   = {"Backend", "Databases", "Web apps", "AI-assisted development"};
+    String[] focus   = {"Backend", "Databases", "Web apps"};
     String hobby     = "Game development in Roblox (Luau)";
 }
 ```
