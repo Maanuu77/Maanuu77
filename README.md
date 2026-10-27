@@ -14,41 +14,46 @@
 
 ```java
 public class Manuel {
-    String role      = "Software Developer in training";
-    String studies   = "Multiplatform Application Development (DAM) @ Salesianos San Pedro";
-    String location  = "Seville, Spain";
-    String[] languages = {"Spanish (native)", "English (C1 - Cambridge)"};
-    String[] focus   = {"Backend", "Databases", "Web apps"};
-    String hobby     = "Game development in Roblox (Luau)";
+    String role         = "Full-Stack & Multiplatform Developer";
+    String studies      = "Multiplatform Application Development (DAM) @ Salesianos San Pedro";
+    String location     = "Seville, Spain";
+    String[] languages  = {"Spanish (native)", "English (C1 - Cambridge)"};
+
+    String[] backend    = {"Java 21", "Spring Boot", "PostgreSQL / PostGIS"};
+    String[] frontMob   = {"Angular (Signals)", "React", "TypeScript", "Capacitor (Android)", "PWA"};
+    String[] devOpsCloud= {"Docker", "Cloud Run", "Firebase", "GitHub Actions CI/CD"};
+
+    String hobby        = "Game development in Roblox (Luau)";
 }
 ```
 
 ## 🛠️ Tech stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,html,css,js,mysql,firebase,git,github,vscode,idea&perline=11" />
-</div>
+**Backend & Data**
+<br />
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,firebase" alt="Backend & Data" />
+
+**Frontend & Mobile**
+<br />
+<img src="https://skillicons.dev/icons?i=ts,js,angular,react,androidstudio,html,css" alt="Frontend & Mobile" />
+
+**DevOps, Build & Tooling**
+<br />
+<img src="https://skillicons.dev/icons?i=docker,githubactions,vite,git,github,idea,vscode" alt="Tools" />
 
 ## 🚀 Featured projects
 
 | Project | Description | Tech |
 |---|---|---|
-| 🗺️ [**Benchify V2.0**](https://github.com/Maanuu77/Benchify_V2.0) | Web app with an interactive map to discover and add public benches, powered by OpenStreetMap and a Firebase database. | HTML · CSS · JS · Firebase |
+| 🌳 [**Benchify**](https://github.com/Maanuu77/Benchify.git) | Full-stack collaborative map for public benches featuring geospatial queries (PostGIS), proximity check-ins, photo moderation, and hexagonal architecture. | Java · Spring Boot · Angular · PostGIS · Cloud Run |
 | 📈 [**Skills_financieras_IA**](https://github.com/Maanuu77/Skills_financieras_IA) | AI skills that teach Claude to perform financial analysis: technical indicators, candlestick patterns, sector and crypto analysis. | AI · Prompt engineering · HTML |
-| ☕ [**Workspace**](https://github.com/Maanuu77/Workspace) | Java exercises and projects from my studies: OOP, data structures and algorithms. | Java |
+| 🗓️ [**MyOrganizationSchedule**](https://github.com/Maanuu77/MyOrganizationSchedule.git) | Full-featured PWA for time management: drag-and-drop calendar, cross-device synced focus timer, routines, tasks, and real-time stats. | React · TypeScript · Firebase · Vite |
+| 📱 [**MyOrganizationScheduleApp**](https://github.com/Maanuu77/MyOrganizationScheduleApp.git) | Android client packaged with Capacitor, featuring local scheduled alarms, native Google auth, and automated CI/CD APK releases. | Capacitor · React · TypeScript · Android |
 
 ## 📊 GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maanuu77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maanuu77&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Maanuu77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true&hide=stars,issues" height="160" alt="GitHub Stats" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maanuu77&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" height="160" alt="Top Languages" />
 </div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Maanuu77/Maanuu77/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/Maanuu77/Maanuu77/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%"/>
