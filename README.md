@@ -14,14 +14,16 @@
 
 ```java
 public class Manuel {
-    String role         = "Full-Stack & Multiplatform Developer";
+    String role         = "Software Developer · Backend & Developer Tooling";
     String studies      = "Multiplatform Application Development (DAM) @ Salesianos San Pedro";
     String location     = "Seville, Spain";
     String[] languages  = {"Spanish (native)", "English (C1 - Cambridge)"};
 
-    String[] backend    = {"Java 21", "Spring Boot", "PostgreSQL / PostGIS"};
-    String[] frontMob   = {"Angular (Signals)", "React", "TypeScript", "Capacitor (Android)", "PWA"};
-    String[] devOpsCloud= {"Docker", "Cloud Run", "Firebase", "GitHub Actions CI/CD"};
+    String[] languages_dev = {"Java", "Python", "TypeScript", "SQL"};
+    String[] core_focus    = {"Static Analysis (AST & Tree-sitter)", "Hexagonal Architecture", "Geospatial Data (PostGIS)"};
+    String[] frameworks    = {"Spring Boot", "Angular (Signals)", "React", "Capacitor (Android)"};
+    String[] devOps_cloud  = {"Docker", "Cloud Run", "GitHub Actions CI/CD", "Firebase"};
+    String[] testing       = {"Testcontainers", "ArchUnit", "JUnit 5", "pytest", "Playwright", "Vitest"};
 
     String hobby        = "Game development in Roblox (Luau)";
 }
@@ -29,31 +31,34 @@ public class Manuel {
 
 ## 🛠️ Tech stack
 
-**Backend & Data**
+**Backend, Data & Tooling**
 <br />
-<img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,firebase" alt="Backend & Data" />
+<img src="https://skillicons.dev/icons?i=python,java,spring,postgres,mysql,firebase,docker" alt="Backend, Data & Tooling" />
 
 **Frontend & Mobile**
 <br />
 <img src="https://skillicons.dev/icons?i=ts,js,angular,react,androidstudio,html,css" alt="Frontend & Mobile" />
 
-**DevOps, Build & Tooling**
+**DevOps, Build & Environment**
 <br />
-<img src="https://skillicons.dev/icons?i=docker,githubactions,vite,git,github,idea,vscode" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=githubactions,vite,git,github,idea,vscode" alt="DevOps & Tools" />
 
 ## 🚀 Featured projects
 
 | Project | Description | Tech |
 |---|---|---|
-| 🌳 [**Benchify**](https://github.com/Maanuu77/Benchify.git) | Full-stack collaborative map for public benches featuring geospatial queries (PostGIS), proximity check-ins, photo moderation, and hexagonal architecture. | Java · Spring Boot · Angular · PostGIS · Cloud Run |
-| 📈 [**Skills_financieras_IA**](https://github.com/Maanuu77/Skills_financieras_IA) | AI skills that teach Claude to perform financial analysis: technical indicators, candlestick patterns, sector and crypto analysis. | AI · Prompt engineering · HTML |
+| 🔬 [**ProyectScan**](https://github.com/Maanuu77/ProyectScan.git) | Deterministic static analysis tool that inspects Python, Java, and TypeScript codebases (via AST & Tree-sitter) to generate 3-level architecture docs and hand-laid SVGs. Runs 100% locally with zero AI. | Python · Tree-sitter · AST · SVG Tiny · GUI/CLI |
+| 🌳 [**Benchify**](https://github.com/Maanuu77/Benchify.git) | Full-stack collaborative map for public benches featuring PostGIS spatial queries, proximity check-ins, photo moderation, and a clean hexagonal architecture. | Java 21 · Spring Boot · Angular · PostGIS · Cloud Run |
 | 🗓️ [**MyOrganizationSchedule**](https://github.com/Maanuu77/MyOrganizationSchedule.git) | Full-featured PWA for time management: drag-and-drop calendar, cross-device synced focus timer, routines, tasks, and real-time stats. | React · TypeScript · Firebase · Vite |
 | 📱 [**MyOrganizationScheduleApp**](https://github.com/Maanuu77/MyOrganizationScheduleApp.git) | Android client packaged with Capacitor, featuring local scheduled alarms, native Google auth, and automated CI/CD APK releases. | Capacitor · React · TypeScript · Android |
+| 📈 [**Skills_financieras_IA**](https://github.com/Maanuu77/Skills_financieras_IA) | AI skills that teach Claude to perform financial analysis: technical indicators, candlestick patterns, sector and crypto analysis. | AI · Prompt engineering · Markdown |
+
+## 📊 GitHub activity
 
 ## 📊 GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maanuu77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true&hide=stars,issues" height="160" alt="GitHub Stats" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maanuu77&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" height="160" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Maanuu77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true&hide=issues&card_width=395" alt="GitHub Stats" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maanuu77&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" alt="Top Languages" />
 </div>
