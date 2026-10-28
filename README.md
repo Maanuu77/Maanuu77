@@ -55,10 +55,7 @@ public class Manuel {
 
 ## 📊 GitHub activity
 
-## 📊 GitHub activity
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maanuu77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true&hide=issues&card_width=395" alt="GitHub Stats" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maanuu77&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Maanuu77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true&hide=issues" height="155" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Maanuu77&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" height="155" alt="Top Languages" />
 </div>
